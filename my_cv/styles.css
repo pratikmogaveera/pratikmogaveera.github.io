@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #4B3ACA, #9153c9);
+}
+
+.resume{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left{
+    background: #292b2f;
+    width: 250px;
+    padding: 0 20px;
+}
+
+.right{
+    width: calc(100% - 250px);
+}
+
+.left .img_holder{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.left .img_holder img{
+    width: 200px;
+    border-radius: 10px;
+    border: 4px solid #4B3ACA;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    color: #4B3ACA;
+    position: relative;
+    text-align: left;
+}
+
+.title::before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #4B3ACA;
+}
+
+.left .icon{
+    font-size: 20px;
+    color: #4B3ACA;
+}
+
+.left .text{
+    color: #4B3ACA;
+    text-transform: uppercase; 
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.contact .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 150%;
+    margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.contact .li_wrap .icon .text{
+    width: calc(100%-15px);
+    word-break: break-word;
+    color: #fff;
+}
+/* LANGUAGE */
+.languages ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.languages .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages .li_wrap .text{
+    padding-top: 15px;
+    font-weight: 800;
+    font-size:17px;
+}
+
+.header{
+    background: #292b2f;
+    padding: 15px 30px;
+    color: #fff;
+    height: 200px;
+}
+
+.header .name{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.header .role{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4B3ACA;
+}
+
+.header .edu{
+    margin-top: 20px;
+    line-height: 25px;
+    padding-left: 25px 25px;
+}
+.right_inner .comp,
+.right_inner .hob,
+.right_inner .edu{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.right_inner .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date{
+    width: 125px;
+    color: #4B3ACA;
+    font-weight: 600;
+}
+
+.right_inner .li_wrap .info{
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #4B3ACA;
+}
+
+.right_inner .li_wrap .info_com{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top:3px;
+}
+
+.right_inner .li_wrap .info_cont{
+    margin-top: 15px;
+
+}
+
+.right_inner .li_wrap .info::before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    background: #4B3ACA;
+    border-radius: 50%;
+
+}
+
+.right_inner .li_wrap .hobbies{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:black;
+
+}
+
+.right_inner .comp{
+    align-items: center;
+}
+
+.right_inner .comp img{
+    width: 200px;
+    display: flex;
+}
