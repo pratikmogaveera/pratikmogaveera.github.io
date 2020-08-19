@@ -171,7 +171,7 @@ body{
 .right_inner .li_wrap .date{
     width: 125px;
     color: black;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .right_inner .li_wrap .info{
@@ -185,6 +185,7 @@ body{
     font-weight: 600;
     letter-spacing: 2px;
     color: black;
+    font-size: 18px;
 }
 
 .right_inner .li_wrap .info_com{
@@ -224,4 +225,8 @@ body{
 .right_inner .comp img{
     width: 200px;
     display: flex;
+}
+
+.date{
+    font-size: 18px;
 }
