@@ -99,6 +99,11 @@ body{
     word-break: break-word;
     color: #fff;
 }
+
+.contact .li_wrap .text{
+    color: #fff
+}
+
 /* LANGUAGE */
 .languages ul{
     display: flex;
